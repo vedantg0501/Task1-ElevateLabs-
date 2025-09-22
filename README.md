@@ -1,72 +1,71 @@
 # Task1-ElevateLabs-
 Data Cleaning and Preprocessing
-# Task1 (day1)
+Task1-ElevateLabs - Data Cleaning and Preprocessing
+A small project for Day 1 tasks at Elevate Labs. This repository contains a Jupyter Notebook that demonstrates data cleaning and preprocessing on a medical appointment dataset.
 
-Short description
-A small project for Day 1 tasks at Elevate Labs. Contains exercises, example code, and scripts used to demonstrate basic workflows and concepts.
+Table of contents
+Description
 
-## Table of contents
-- [Description](#description)
-- [Features](#features)
-- [Prerequisites](#prerequisites)
-- [Setup](#setup)
-- [Usage](#usage)
-- [Project structure](#project-structure)
-- [Running tests](#running-tests)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+Features
 
-## Description
-This repository holds the code and resources for Task 1 (Day 1). It is intended as a concise, reproducible example for learning and demonstration purposes.
+Prerequisites
 
-## Features
-- Small, focused example code
-- Scripts to run and verify behavior
-- Clear structure for quick onboarding
+Setup
 
-## Prerequisites
-- Windows 10/11
-- Node.js (if project contains JS) or the appropriate runtime for the code in this repo
-- Git
+Usage
 
-Adjust prerequisites to match the project's language/runtime.
+Project structure
 
-## Setup
-1. Clone the repository:
-   git clone <repo-url>
-2. Change into the project directory:
-   cd "d:\Elevate Labs\Task1(day1)"
+Contact
 
-3. Install dependencies (if applicable):
-   npm install
-   or follow language-specific install steps
+Description
+This repository holds the code and resources for a data cleaning and preprocessing task. The main goal is to clean a dataset of medical appointments to make it suitable for analysis. The process involves handling missing values, duplicates, and formatting issues.
 
-## Usage
-- Run the main script or start command relevant to this project. Example:
-  npm start
+Features
+Data Loading: The dataset is loaded from a CSV file into a pandas DataFrame.
 
-- For quick checks, open the files in Visual Studio Code and run from the integrated terminal.
+Handling Duplicates: Duplicate records are removed to ensure data integrity.
 
-## Project structure
-- README.md — this file
-- src/ or . — source code files
-- tests/ — unit tests (if present)
-- scripts/ — helper scripts
+Handling Inconsistent Data: The code identifies and removes a record with an invalid age (-1).
 
-Adjust structure as needed for this repository.
+Data Type Conversion: The 'ScheduledDay' column is converted to a proper datetime format.
 
-## Running tests
-- If tests exist, run:
-  npm test
-or use the language-specific test command.
+Column Renaming: Column names are standardized for clarity ('Hipertension' to 'Hypertension' and 'No-show' to 'No_show').
 
-## Contributing
-- Open an issue to discuss major changes.
-- Create feature branches, follow existing code style, and submit PRs against main.
+Prerequisites
+Python 3
 
-## License
-Specify a license for the repository (MIT, Apache-2.0, etc.). Add a LICENSE file.
+pandas
 
-## Contact
-For questions, open an issue or contact the repository owner.
+Jupyter Notebook or Jupyter Lab
+
+Setup
+Clone the repository:
+
+Bash
+
+git clone <repo-url>
+Change into the project directory:
+
+Bash
+
+cd "d:\Elevate Labs\Task1(day1)"
+Install dependencies:
+
+Bash
+
+pip install pandas
+Usage
+Open and run the dataCleaning&preprocessing.ipynb notebook in Jupyter Notebook or Jupyter Lab.
+
+The notebook contains step-by-step code for cleaning and preprocessing the data.
+
+Project structure
+README.md — this file
+
+dataCleaning&preprocessing.ipynb — Jupyter Notebook with the data cleaning code
+
+Medical_Appointment_No_Shows.csv — The dataset used in the notebook
+
+Contact
+For questions, open an issue or contact the repository owner or mail at vedantgupta8784@gmail.com.
