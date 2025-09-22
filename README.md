@@ -2,7 +2,7 @@
 
 ## Data Cleaning and Preprocessing
 
-This repository contains code and resources for data cleaning and preprocessing tasks. The primary goal is to demonstrate techniques for preparing raw data for analysis, focusing on steps such as handling missing values, encoding categorical variables, normalization, and more.
+This repository contains code and resources for data cleaning and preprocessing tasks. The primary goal is to demonstrate techniques for preparing raw data for analysis, focusing on steps such as handling missing values, drop duplicates, convert datetime format and check & fix datatypes.
 
 ### Contents
 
@@ -13,10 +13,10 @@ This repository contains code and resources for data cleaning and preprocessing 
 ### Key Features
 
 - Handling missing data (imputation, removal)
-- Feature encoding (label encoding, one-hot encoding)
-- Data normalization and scaling
-- Removing duplicates
-- Exploratory data analysis (EDA) utilities
+- Removing duplicates.
+- Standardize text.
+- Rename column header to be clean and uniform.
+- Check and fix data types.
 
 ### Getting Started
 
